@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>| Contato | </title>
-    <link rel="icon" href="https://i.ibb.co/pvMDJrN/PSDPRO7777-NTO.png" type="image/png">
+    <link rel="icon" href="https://i.ibb.co/N9ZbZ9Q/logoapenas-FAVICON.png" type="image/png">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -95,8 +95,9 @@
         #slider-email {
             background-color: #3b5998;
         }
-
-
+        #slider-instagram {
+            background-color: #E4405F;
+        }
 
         .arrow-container {
             position: absolute;
@@ -156,7 +157,15 @@
             <span class="text">Envie um email de contato!</span>
         </div>
     </div>
-  
+    <div class="slider-container" id="instagram">
+        <div class="slider" id="slider-instagram">
+            <img src="https://i.ibb.co/Z67H1c4r/CITYPNG-COM-HD-Square-White-Instagram-Logo-Icon-PNG-1500x1500.png" alt="Instagram">
+        </div>
+        <div class="arrow-container">
+            <span class="arrow"><i class="fas fa-arrow-right"></i></span>
+            <span class="text">Acesse nosso Instagram!</span>
+        </div>
+    </div>
 
     <script>
         let expandedSlider = null;
@@ -283,7 +292,7 @@
 
         createSlider(document.getElementById('slider-whatsapp'), 'https://api.whatsapp.com/send?phone=5517981421484', '#25d366');
         createSlider(document.getElementById('slider-email'), 'mailto:clinicadepsicologia.marques@gmail.com', '#3b5998');
-       
+        createSlider(document.getElementById('slider-instagram'), 'https://www.instagram.com/ana.marques.psicologa/', '#E4405F');
     </script>
 </body>
 </html>
